@@ -1,0 +1,204 @@
+/* GENERAL STYLES */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/* SECTIONS */
+section {
+  padding-top: 4vh;
+  margin: 0 10rem;
+  min-height: fit-content;
+}
+
+/* EXPERIENCE SECTION */
+#experience {
+  text-align: center;
+}
+
+.experience-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.experience-card {
+  background-color: #2e3b4e;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.experience-card h3,
+.experience-card h4,
+.experience-card p {
+  text-align: left;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #experience {
+    margin: 0 2rem;
+  }
+
+  .experience-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #experience {
+    margin: 0 1rem;
+  }
+
+  .experience-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  #contact,
+  footer {
+    height: fit-content;
+  }
+  #profile {
+    height: fit-content;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+    flex: 1 1 100%; /* Full width on small screens */
+    text-align: center; /* Center text for better mobile view */
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}

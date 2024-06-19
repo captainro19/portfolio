@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  <!-- Your HTML content here -->
+</body>
+</html>
+</head>
+<body>
+  <!-- Your HTML content here -->
+</body>
+</html>
+</head>
+<body>
+  <!-- Desktop Navigation -->
+  <nav id="desktop-nav">
+    <div class="logo">Rohith Sahini</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hamburger Menu for Mobile -->
+  <nav id="hamburger-nav">
+    <div class="logo">Rohith</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Profile Section -->
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.jpg" alt="Rohith Sahini profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Rohith Sahini</h1>
+      <p class="section__text__p2">Cloud Data Engineer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/roresumeportfolionew.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/rohithsahini/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/captainro19'" />
+      </div>
+    </div>
+  </section>
+
+ <!-- About Section -->
+<section id="about">
+  <p class="section__text__p1">Get To Know More</p>
+  <h1 class="title">About Me</h1>
+  <div class="section-container">
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+          <h3>Experience</h3>
+          <p>2 years <br />Cloud Data Engineering</p>
+        </div>
+        <div class="details-container">
+          <img src="./assets/education.png" alt="Education icon" class="icon" />
+          <h3>Education</h3>
+          <p>Masters in Business Analytics and Information Systems</p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>
+          Experienced Data Engineer currently pursuing a Master's in Business Analytics and Information Systems at the University of South Florida. Actively seeking valuable internship opportunities. Skilled in collaborating with various stakeholders, conducting advanced data analysis, and building full-stack websites. Proficient in Python and SQL, with practical knowledge in database technologies and cloud platforms like Amazon Web Services and Microsoft Azure. Proficient in using Microsoft Power BI.        </p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container">
+    <div class="experience-row">
+      <div class="experience-card">
+        <h3>Internship - Wipro Limited</h3>
+        <h4>Data Analyst Intern</h4>
+        <p class="experience-details">
+          • Collaborated with the Stockholm Health Initiative on a public health analysis project, conducting statistical analysis on health and demographic data, positively impacting over 10,000 individuals.
+          • Devised interactive Tableau dashboards to monitor health indicators, accessed by over 100 stakeholders daily, resulting in a 10% improvement in understanding health trends.
+          • Gathered requirements from the BI team and external stakeholders to write SQL queries for efficient data extraction and storage of more than 1 million records.
+        </p>
+      </div>
+      <div class="experience-card">
+        <h3>Full Time - Wipro Limited</h3>
+        <h4>Cloud Data Engineer</h4>
+        <p class="experience-details">
+          • Conducted statistical analysis on energy usage and demographics data, which positively impacted over 15,000 households while working on energy consumption analysis project.
+          • Designed and automated ETL processes using AWS Glue ensuring seamless data flow between systems and used AWS Redshift for fast querying and analysis of large datasets, enhancing data accessibility and integrity.
+          • Created interactive Power BI visualizations for real-time monitoring of energy consumption, used by over 120 stakeholders daily. This showed 18% improvement in understanding energy usage trends and making informed decisions.
+        </p>
+      </div>
+    </div>
+    <div class="experience-row">
+      <div class="experience-card">
+        <h3>University of South Florida</h3>
+        <h4>Data Engineer Assistant</h4>
+        <p class="experience-details">
+          • Successfully engineered an ELT data pipeline with Azure Synapse Analytics, achieving an 85% reduction in data load time through incremental data loading.
+          • Led the creation of detailed Power BI dashboards for university student academic data, utilizing Azure Synapse Analytics to provide in-depth insights into student performance.
+          • Optimized data handling processes, significantly improving efficiency and precision by leveraging the advanced capabilities of Azure Synapse Analytics.
+        </p>
+      </div>
+      <div class="experience-card">
+        <h3>University of South Florida</h3>
+        <h4>Master's in Business Analytics and Information Systems</h4>
+        <p class="experience-details">
+          Courses<br>
+          Data Mining<br>
+          Data Warehousing<br>
+          Big Data<br>
+          Cloud Solutions Architecture<br>
+          Advanced System Analysis<br>
+          System Design<br>
+          Enterprise Information Systems<br>
+          Distributed Information Systems<br>
+          Project Management
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="experience-details-container">
+      <div class="skills-container">
+        <h2 class="experience-sub-title">Skills</h2>
+        <div class="skills-box">
+          <div class="skill-item">HTML</div>
+          <div class="skill-item">CSS</div>
+          <div class="skill-item">Python</div>
+          <div class="skill-item">C#</div>
+          <div class="skill-item">AWS CLI Scripting</div>
+          <div class="skill-item">MySQL</div>
+          <div class="skill-item">PostgreSQL</div>
+          <div class="skill-item">Amazon Dynamo DB</div>
+          <div class="skill-item">AWS</div>
+          <div class="skill-item">Azure</div>
+          <div class="skill-item">Azure Synapse Analytics</div>
+          <div class="skill-item">Power BI</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.jpg" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Olympic Data Analysis using Microsoft Azure</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/captainro19/Olympic-Data-Analysis-using-Microsoft-Azure'">Github</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.jpeg" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Stock Market Analytics using AWS</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/captainro19/Stock-Market-Analytics-using-Kafka'">Github</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.jpg" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">VR Website-Algorand Blockchain Transaction Explorer</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/captainro19/hci_pro'">Github</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <title>Portfolio</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Contact Me</title>
+    </head>
+    <body>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="styles.css">
+          <title>Contact Me</title>
+      </head>
+      <body>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="styles.css">
+            <title>Contact Form</title>
+        </head>
+        <body>
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="stylesheet" href="styles.css">
+              <title>Contact Form</title>
+          </head>
+          <body>
+              <!-- Contact Section -->
+              <section id="contact" class="contact-section">
+                  <h1>Contact Me</h1>
+                  <div class="contact-info-upper-container">
+                      <div class="contact-info-container">
+                          <img src="./assets/email.png" alt="Email Icon" class="contact-icon">
+                          <p><a href="mailto:rohithsahini@gmail.com" target="_blank">rohithsahini@gmail.com</a></p>
+                      </div>
+                      <div class="contact-info-container">
+                          <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="contact-icon">
+                          <p><a href="https://linkedin.com/in/rohitsahini" target="_blank">LinkedIn</a></p>
+                      </div>
+                  </div>
+                  <form class="contact-form" action="send_email.php" method="POST">
+                      <input type="text" name="name" placeholder="Your Full Name" required>
+                      <input type="email" name="email" placeholder="Your Email" required>
+                      <textarea name="message" placeholder="Your Message" required></textarea>
+                      <button type="submit">Send Message</button>
+                  </form>
+              </section>
+          </body>
+          </html>
+          
+          <!-- Footer Section -->
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu-links');
+      const icon = document.querySelector('.hamburger-icon');
+      menu.classList.toggle('open');
+      icon.classList.toggle('open');
+    }
+
+ 
