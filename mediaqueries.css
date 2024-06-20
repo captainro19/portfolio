@@ -202,3 +202,24 @@ section {
     text-align: justify;
   }
 }
+@media screen and (max-width: 600px) {
+  .contact-info-upper-container {
+    flex-direction: column;
+    gap: 20px; /* Adjust the gap for mobile view */
+  }
+
+  .contact-info-container {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .contact-info-container img {
+    width: 40px; /* Adjust the width for mobile view */
+  }
+
+  .contact-form {
+    width: 90%; /* Make the form wider on small screens */
+    margin: 0 auto;
+  }
+}

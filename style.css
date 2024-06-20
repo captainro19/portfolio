@@ -603,9 +603,8 @@ a:hover {
     margin: 1rem 0;
 }
 
-/* Contact Section Styling */
 .contact-section {
-  background-color: #f9f9f9; /* Light background for better contrast */
+  background-color: #f5f5f5; /* Light grey background */
   padding: 50px 0;
   text-align: center;
 }
@@ -613,7 +612,7 @@ a:hover {
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
-  gap: 50px; /* Adjust the gap as needed */
+  gap: 50px;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -625,11 +624,11 @@ a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
-  gap: 10px; /* Adjust the gap as needed */
+  gap: 10px;
 }
 
 .contact-info-container img {
-  width: 50px; /* Adjust the width as needed */
+  width: 50px;
   height: auto;
 }
 
@@ -640,12 +639,13 @@ a:hover {
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Adjust the gap as needed */
+  gap: 10px;
   max-width: 400px;
   margin: 0 auto;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -665,8 +665,6 @@ a:hover {
 .contact-form button:hover {
   background-color: #0056b3;
 }
-
-/* Footer Styling */
 /* Footer Section */
 footer {
   background-color: white;
