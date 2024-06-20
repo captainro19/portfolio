@@ -31,6 +31,26 @@
   </nav>
 
   <!-- Hamburger Menu for Mobile -->
+  <body>
+    <!-- Hamburger Menu for Mobile -->
+    <nav id="hamburger-nav">
+      <div class="logo">Rohith</div>
+      <div class="hamburger-menu" onclick="toggleMenu()">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <ul class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </nav>
+  </body>
+  
   <nav id="hamburger-nav">
     <div class="logo">Rohith</div>
     <div class="hamburger-menu">
@@ -47,7 +67,13 @@
       </ul>
     </div>
   </nav>
-
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu-links');
+      menu.classList.toggle('open');
+    }
+  </script>
+  
   <!-- Profile Section -->
   <section id="profile">
     <div class="section__pic-container">
@@ -290,3 +316,4 @@
   </script>
 </body>
 </html>
+
