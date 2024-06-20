@@ -17,62 +17,36 @@
 </head>
 <body>
 
-  <!-- Desktop Navigation -->
-  <nav id="desktop-nav">
-    <div class="logo">Rohith Sahini</div>
-    <div>
+ <!-- Desktop Navigation -->
+<nav id="desktop-nav" style="background-color: white;">
+  <div class="logo" style="color: black;">Rohith Sahini</div>
+  <div>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+          <li><a href="#about" style="color: black;">About</a></li>
+          <li><a href="#experience" style="color: black;">Experience</a></li>
+          <li><a href="#projects" style="color: black;">Projects</a></li>
+          <li><a href="#contact" style="color: black;">Contact</a></li>
       </ul>
-    </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- Hamburger Menu for Mobile -->
-  <body>
-    <!-- Hamburger Menu for Mobile -->
-    <nav id="hamburger-nav">
-      <div class="logo">Rohith</div>
-      <div class="hamburger-menu" onclick="toggleMenu()">
-        <div class="hamburger-icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-      <ul class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-      </ul>
-    </nav>
-  </body>
-  
-  <nav id="hamburger-nav">
-    <div class="logo">Rohith</div>
-    <div class="hamburger-menu">
+<!-- Hamburger Menu for Mobile -->
+<nav id="hamburger-nav" style="background-color: white;">
+  <div class="logo" style="color: black;">Rohith</div>
+  <div class="hamburger-menu">
       <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+          <span style="background-color: black;"></span>
+          <span style="background-color: black;"></span>
+          <span style="background-color: black;"></span>
       </div>
       <ul class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#about" onclick="toggleMenu()" style="color: black;">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()" style="color: black;">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()" style="color: black;">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()" style="color: black;">Contact</a></li>
       </ul>
-    </div>
-  </nav>
-<script>
-  function toggleMenu() {
-    const menu = document.querySelector('.menu-links');
-    menu.classList.toggle('open');
-  }
-</script>
+  </div>
+</nav>
 
   <!-- Profile Section -->
   <section id="profile">
@@ -290,20 +264,20 @@
 </body>
 </html>
 
-
-  <!-- Footer Section -->
-  <footer>
-    <nav>
+ <!-- Footer Section -->
+<footer style="background-color: white;">
+  <nav>
       <div class="nav-links-container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+          <ul class="nav-links">
+              <li><a href="#about" style="color: black;">About</a></li>
+              <li><a href="#experience" style="color: black;">Experience</a></li>
+              <li><a href="#projects" style="color: black;">Projects</a></li>
+              <li><a href="#contact" style="color: black;">Contact</a></li>
+          </ul>
       </div>
-    </nav>
-  </footer>
+  </nav>
+  <p style="color: black;">&copy; 2024 Rohith Sahini. All rights reserved.</p>
+</footer>
 
   <!-- JavaScript -->
   <script>
@@ -317,3 +291,9 @@
 </body>
 </html>
 
+<script>
+  function toggleMenu() {
+    const menu = document.querySelector('.menu-links');
+    menu.classList.toggle('open');
+  }
+</script>
